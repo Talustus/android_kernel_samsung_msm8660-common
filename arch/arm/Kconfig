@@ -1935,7 +1935,7 @@ config CMDLINE_EXTEND
 	bool "Extend bootloader kernel arguments"
 	help
 	  The command-line arguments provided by the boot loader will be
-	  appended to the default kernel command string.
+	  prepended to the default kernel command string.
 
 config CMDLINE_FORCE
 	bool "Always use the default kernel command string"
